@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MascotaVirtual</string>
+    <string name="titulo_notificacion">Tu mascota tiene una necesidad</string>
+    <string name="texto_notificacion">Satisface la necesidad de tu mascotita</string>
+    <string name="texto_error">Esa no es mi necesidad</string>
+    <string name="texto_no_necesidad">No tengo ninguna necesidad</string>
+</resources>

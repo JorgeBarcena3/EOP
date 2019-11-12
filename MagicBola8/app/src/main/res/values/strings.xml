@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MagicBolaJorgeBarcena</string>
+    <string name="nombre"> Nombre </string>
+    <string name="pregunta"> Pregunta </string>
+    <string name="preguntar">Preguntar</string>
+    <string name="restart">Volver a preguntar</string>
+    <string name="pregunta_fallada">La pregunta es incorrecta o te falta el nombre.</string>
+    <string name="hola_lbl">Hola, </string>
+</resources>

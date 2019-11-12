@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PreguntaActualCategoria"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/PreguntaImagen"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:src="@color/colorArteYLiteratura"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Divider" />
+
+    <View
+        android:id="@+id/Divider"
+        android:layout_width="379dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2" />
+
+    <TextView
+        android:id="@+id/PreguntaCategoria"
+        android:layout_width="280dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="224dp"
+        android:text="Arte y literatura"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toEndOf="@+id/PreguntaImagen"
+        app:layout_constraintTop_toBottomOf="@+id/Divider" />
+
+    <TextView
+        android:id="@+id/PreguntaActual"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="176dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PreguntaCategoria" />
+
+    <Button
+        android:id="@+id/Pregunta2"
+        android:layout_width="289dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="162dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Pregunta1" />
+
+    <Button
+        android:id="@+id/Pregunta1"
+        android:layout_width="289dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="162dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PreguntaActual" />
+
+    <Button
+        android:id="@+id/Pregunta3"
+        android:layout_width="289dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="162dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Pregunta2" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="379dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/Arte"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/colorArteYLiteratura"
+                android:padding="1dp"
+                android:src="@color/white" />
+
+            <ImageView
+                android:id="@+id/Ciencia"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/colorCienciasYNaturaleza"
+                android:padding="1dp"
+                android:src="@color/white" />
+
+            <ImageView
+                android:id="@+id/Deportes"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/colorDeportesYOcio"
+                android:padding="1dp"
+                android:src="@color/white" />
+
+            <ImageView
+                android:id="@+id/Geografia"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/colorGeografia"
+                android:padding="1dp"
+                android:src="@color/white" />
+
+            <ImageView
+                android:id="@+id/Historia"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/colorHistoria"
+                android:padding="1dp"
+                android:src="@color/white" />
+
+            <ImageView
+                android:id="@+id/Espectaculos"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/colorEspectaculos"
+                android:padding="1dp"
+                android:src="@color/white" />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

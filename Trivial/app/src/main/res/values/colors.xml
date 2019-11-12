@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGeografia">#13E7C8</color>
+    <color name="colorEspectaculos">#C415E2</color>
+    <color name="colorHistoria">#FFEB3B</color>
+    <color name="colorArteYLiteratura">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorCienciasYNaturaleza">#29FF06</color>
+    <color name="colorDeportesYOcio">#FF9800</color>
+</resources>
